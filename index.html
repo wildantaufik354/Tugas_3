@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tugas 3</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body id="body">
+    <form name="calculator">
+        <fieldset class="fieldset">
+        <div class="judul">
+            <h2 class="iniheader">
+                MINI CALCULATOR 
+            </h2>
+        </div>
+        <div class="ini table">
+            <table align="center">
+                <div class="inivalue1">
+                    <tr>
+                        <td class="value1">
+                            Angka 1
+                        </td>
+                        <td>
+                            :
+                        </td>
+                        <td>
+                            <input type="number" id="angka1" name="angka1">
+                        </td>
+                    </tr>
+                </div>
+                <div class="inivalue2">
+                    <tr>
+                        <td class="value2">
+                            Angka 2
+                        </td> 
+                        <td>
+                            :
+                        </td>
+                        <td>
+                            <input type="number" id="angka2" name="angka2">
+                        </td>
+                    </tr>
+                </div>
+                <div class="inihasil">
+                    <tr>
+                        <td class="hasil">
+                            Hasil
+                        </td>
+                        <td>
+                            :
+                        </td>
+                        <td>
+                            <input type="number" id="hasil" name="hasil">
+                        </td>
+                    </div>    
+                </tr>
+                <div>
+                    <tr>
+                        <td colspan="3" align="center" class="tombol">
+                            <input type="button" class="tombol" onclick="tambah('+')" value=" + ">
+                            <input type="button" class="tombol" onclick="kurang('-')" value=" - ">
+                            <input type="button" class="tombol" onclick="kali('*')" value=" * ">
+                            <input type="button" class="tombol" onclick="bagi('/')" value=" / ">
+                        </td>
+                    </tr>
+                </div>
+            </table>
+        </div>
+    </fieldset>
+    </form>
+    </html>
+    <script src="./javascript/js.js"></script>
+</body>

@@ -1,0 +1,49 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(100deg, #660033,#ff9900 );
+    font-family: sans-serif;
+}
+.iniheader{
+    margin: 1cm;
+    padding: 1cm 0cm;
+    text-align: center;
+    font-size: 50px;
+}
+#angka1{
+    font-size: 20px;
+    margin: 0.2cm 0cm;
+    padding: 0.5em;
+}
+#angka2{
+    font-size: 20px;
+    margin: 0.2cm 0cm;
+    padding: 0.5em;
+}
+#hasil{
+    font-size: 20px;
+    margin: 0.2cm 0cm;
+    padding: 0.5em;
+}
+.value1{
+    font-size: 30px;
+}
+.value2{
+    font-size: 30px;
+}
+.hasil{
+    font-size: 30px;
+}
+.tombol{
+    font-size: 30px;
+    padding: 0.2em 0.5em;
+}
+.fieldset{
+    border: solid 0;
+    border-radius: 0.4cm;
+    background-color: peachpuff;
+    padding: 3em;
+}
+
